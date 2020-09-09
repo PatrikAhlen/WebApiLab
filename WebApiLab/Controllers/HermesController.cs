@@ -21,7 +21,7 @@ namespace WebApiLab.Controllers
         {
             _httpContextAccessor = httpContextAccessor;
         }
-
+        
         [HttpGet("variables/test")]
         public IActionResult Test()
         {
