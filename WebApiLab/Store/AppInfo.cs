@@ -13,7 +13,7 @@ namespace WebApiLab.Store
         {
             Configuration = configuration;
             MachineName = Environment.MachineName;
-            Version = Configuration["version"];
+            Version = Configuration["Version"];
         }
     }
 }
